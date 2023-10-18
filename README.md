@@ -1,10 +1,10 @@
-# Deployed link - [https://elets-piyush.netlify.app/](https://fitpeo-piyush.netlify.app/)
+# Deployed link - https://fitpeo-piyush.netlify.app/
 
 ## Instalation 
 
 1. Clone the Repository: - open terminal/bash
 
-   git clone https://github.com/aarmin9696/elets-task
+   git clone https://github.com/aarmin9696/fitpeo-piyush.git
 
 2. Open the Cloned folder in VS code or in any other tool, open terminal on it.
 
