@@ -1,0 +1,352 @@
+body{
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    background: linear-gradient(179deg, #176eb5, #d545d7);
+    text-shadow: 1px 0px 2px #8dc4f0;
+
+}
+
+.App {
+  display: flex;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  color: white;
+  background: linear-gradient(179deg, #176eb5, #d545d7);
+  text-shadow: 1px 0px 2px #8dc4f0;
+}
+.body_container {
+  flex: 1;
+}
+.sidebar_container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sidebar{
+  display: flex;
+  width: 14rem;
+  height: 90%;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.lines_icon{
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.profile{
+display: flex;
+align-items: center;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
+.profile>img{
+  width: 100%;
+border-radius: 50%;
+}
+
+.groups{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+h3{
+  font-size: 1rem;
+  margin: 10px 0px 10px 0px
+}
+
+/*====================================================================*/
+
+.body-cont{
+  margin: 2%;
+}
+
+.first-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding:  1%;
+  padding-right: 2%;
+  border-radius: 50px;
+  font-size: larger;
+}
+
+.searchbar input{
+  border: none;
+  font-size: larger;
+  padding-right: 1%;
+  outline: none;
+}
+
+/*============================================================*/
+
+.second-cont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1%;
+  width: 20%;
+  
+}
+
+.item-shadow{
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1%;
+}
+
+
+.card-body{
+  padding-left: 10%;
+}
+
+.green-text{
+  color: green;
+  font-weight: 800;
+}
+
+.red-text{
+  color: red;
+  font-weight: 800;
+}
+
+.gray{
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+}
+
+
+
+/* MonthlyBarChart.css */
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #fff; /* Text color for the header */
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section select {
+  padding: 5px;
+  background-color: #fff; /* Background color for the dropdown */
+  color: #333; /* Text color for the dropdown */
+  border: none;
+  border-radius: 10px;
+}
+
+
+/*===================================================================*/
+
+
+.chart{
+  width: 65%;
+}
+
+.piechart{
+  height: 31rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.third-cont{
+  margin-top: 3%;
+}
+
+#dough{
+  /* position: "relative";width: "300px";height: "300px";margin-top:'20%' */
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 20%;
+}
+
+/*===================================================================*/
+
+.product-container{
+  margin-top: 3%;
+}
+
+.product-divider{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+
+.product-right{
+  margin-right: 1%;
+  padding-right: 1%;
+  width: 40%;
+  text-align: center;
+  
+}
+
+.sub-pro{
+  margin-right: 0;
+}
+
+.sub-price{
+  margin-right: 10%;
+}
+
+.product-details img{
+  width: 130px;
+  height: 80px;
+  padding-right: 3%;
+}
+
+.product-details{
+  display: flex;
+  align-items: center;
+}
+
+#pro-pro{
+  margin-right: 3%;
+}
+
+
+
+/*================================================================*/
+
+
+@media (max-width: 1000px){
+  .first-cont{
+    margin-right: 4%;
+  }
+
+  .second-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+  width: 90%;
+  margin-bottom: 10%;
+}
+
+#dough{
+  width: 180px;
+  height: 180px;
+  margin-top: 5%;
+}
+
+.piechart{
+  height: 15rem;
+  margin-left: 5%;
+}
+
+.third-cont{
+  margin-right: 9%;
+}
+
+.chart {
+  width: 55%;
+}
+
+.searchbar{
+  font-size: 14px;
+}
+
+#pro-pro{
+  margin-right: 5%;
+}
+
+.product-container {
+  margin-top: 8%;
+  margin-right: 3%;
+}
+
+}
+
+@media (max-width: 1000px){
+  .third-cont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart {
+    margin-left: 5%;
+    width: 105%;
+    margin-bottom: 5%;
+  }
+  .piechart{
+    width: 103%;
+    height: inherit;
+  }
+
+  #dough{
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 17%;
+  }
+  .disp{
+    display: none;
+  }
+
+  .product-details img {
+    width: 100px;
+    height: 70px;
+    padding-right: 3%;
+}
+
+  /* #pro-pro{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .fourth-cont{
+    width: max-content;
+    
+  }
+
+  
+}
